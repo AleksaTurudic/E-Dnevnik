@@ -40,9 +40,11 @@ namespace E_Dnevnik
                         if (string.Compare(tabela.Rows[0]["pass"].ToString(), textBox2.Text)==0)
                         {
                             MessageBox.Show("Dobrodosli");
-                            Form1 frm_main = new Form1();
+                            Glavna2 frm_main2 = new Glavna2();
+                            frm_main2.Show();
+                            //Form1 frm_main = new Form1();
                             this.Hide();
-                            frm_main.Show();                            
+                            //frm_main.Show();                            
                         }
                         else
                         {

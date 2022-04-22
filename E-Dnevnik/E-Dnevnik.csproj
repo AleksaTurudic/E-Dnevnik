@@ -53,6 +53,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Glavna2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glavna2.Designer.cs">
+      <DependentUpon>Glavna2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,8 +85,17 @@
     <Compile Include="Sifarnik.Designer.cs">
       <DependentUpon>Sifarnik.cs</DependentUpon>
     </Compile>
+    <Compile Include="Upisnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upisnica.Designer.cs">
+      <DependentUpon>Upisnica.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glavna2.resx">
+      <DependentUpon>Glavna2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -102,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sifarnik.resx">
       <DependentUpon>Sifarnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upisnica.resx">
+      <DependentUpon>Upisnica.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

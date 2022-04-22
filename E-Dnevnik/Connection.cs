@@ -12,7 +12,7 @@ namespace E_Dnevnik
         static public SqlConnection Connect()
         {
             string CS;
-            CS = @"Data Source=DESKTOP-PI5H8T7;Initial Catalog=ednevnik;Integrated Security=True;MultipleActiveResultSets=True";
+            CS = @"Data Source=DESKTOP;Initial Catalog=ednevnik;Integrated Security=True;MultipleActiveResultSets=True";
             SqlConnection veza = new SqlConnection(CS);
             return veza;
         }
