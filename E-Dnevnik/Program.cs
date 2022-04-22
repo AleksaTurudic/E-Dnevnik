@@ -16,7 +16,7 @@ namespace E_Dnevnik
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ocena());
+            Application.Run(new Login());
         }
     }
 }
