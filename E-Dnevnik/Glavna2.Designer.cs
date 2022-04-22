@@ -140,6 +140,7 @@ namespace E_Dnevnik
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Glavna2";
             this.Text = "Glavna2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Glavna2_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

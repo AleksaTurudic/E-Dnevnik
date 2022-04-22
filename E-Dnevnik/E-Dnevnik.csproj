@@ -65,6 +65,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ocena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ocena.Designer.cs">
+      <DependentUpon>Ocena.cs</DependentUpon>
+    </Compile>
     <Compile Include="Osoba.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ocena.resx">
+      <DependentUpon>Ocena.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Osoba.resx">
       <DependentUpon>Osoba.cs</DependentUpon>

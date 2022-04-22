@@ -57,5 +57,10 @@ namespace E_Dnevnik
             Upisnica frm_upisnica = new Upisnica();
             frm_upisnica.Show();
         }
+
+        private void Glavna2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
